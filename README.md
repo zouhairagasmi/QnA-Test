@@ -11,6 +11,17 @@ pip install requirmentname
 ```
 
 ## Usage
+To tun this project on a Docker Container, open a Terminal in the project directory and run the following commands:
+First create your image :
+```bash
+docker build -t qna_solution .
+```
+Now run it : 
+```bash
+docker run qna_solution
+```
+or you can just use this methode to run it on your machine :
+
 in order to run this project you need to open Terminal in project directory and run the following command :
 ```bash
 python qna_solution.py
