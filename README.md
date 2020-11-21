@@ -19,3 +19,6 @@ python qna_solution.py
 This python program is using both the RegEx and Collections modules. 
 Regex will return all the words in the file, but since we could have some words that are starting with Uppercase, so we transformed our output to lowercase. after that comes the Collections part where we have used the Counter() method which counts the frequency of each word and then I have used "most_common()" to sort them by frequency and only show the first 10 words.
 I could implement a different program, where I create all these functions manually, but since it is written in python, it would be better to take advantage of the built-in packages at our disposal which will make the code: well structured, simple, and understandable.
+
+## Git Repository
+https://github.com/zouhairagasmi/QnA-Test.git
